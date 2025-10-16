@@ -4,13 +4,11 @@ function MyButton() {
   );
 }
 
-function App() {
+export default function MyApp() {
   return (
     <div>
-      <h1>Hello Vite + React!</h1>
+      <h1>Welcome to my app</h1>
       <MyButton />
     </div>
   );
 }
-
-export default App;
