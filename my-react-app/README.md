@@ -15,9 +15,9 @@ A two-player Tic Tac Toe game in which React and React Router are used to build.
 Before beginning, make sure you have the following: 
 
 - Have [Node.js] installed: 
-node --version
-npm --version 
-If not, then download from: https://nodejs.org/ 
+    - `node --version`
+    - `npm --version`
+    - If not, then download from: https://nodejs.org/ 
 - A terminal/commond-line interface 
 - Optionally a code editor like [Visual Studio Code]: https://code.visualstudio.com/
 
@@ -25,19 +25,21 @@ If not, then download from: https://nodejs.org/
 
 1. Clone the repository: 
 
-'''bash
+```bash 
 git clone https://github.com/jenn-liuu/technify-tic-tac-toe.git
 cd technify-tic-tac-toe 
+```
 
 2. Install dependencies: 
 
-'''bash 
+```bash 
 npm install 
-
+```
 3. Run the app locally: 
 
-'''bash
+```bash
 npm run dev 
+```
 
 Open your browser and type in http://localhost:5173/ to run my project! 
 
