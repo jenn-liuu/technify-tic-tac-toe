@@ -1,9 +1,10 @@
 # Tic Tac Toe Game -- Home
 
-A two-player Tic Tac Toe game in which React and React Router are used to build. The players start in the home page and can navigate to the game page. They then can play the game, reset the game, and can see their results of if Player 'X' or 'O' wins or if it's a tie. 
+A two-player Tic Tac Toe game in which React and React Router are used to build. The players start in the home page and can navigate to the game page. They then can play the game, see who the next player is, see their results of if Player 'X' or 'O' wins or if it's a tie, and reset the game to play again. 
 
 
-## Dependencies: 
+## Dependencies
+
 - React 
 - React DOM 
 - React Router DOM 
@@ -43,7 +44,7 @@ npm run dev
 
 Open your browser and type in http://localhost:5173/ to run my project! 
 
-## Project Structure 
+## (Extra) Project Structure 
 
 - src 
     - components file #all the React components 
