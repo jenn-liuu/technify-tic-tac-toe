@@ -26,6 +26,11 @@ export default function Board() {
     setXIsNext(!xIsNext); 
   }
 
+  function resetGame() {
+    setSquares(Array(9).fill(null)); 
+    setXIsNext(true); 
+  }
+
   const winner = calculateWinner(squares); 
   let status; 
   if (winner) {
@@ -54,6 +59,7 @@ export default function Board() {
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
+      <button onClick={resetGame}>Reset the Game</button>
     </>
   ); 
 }
