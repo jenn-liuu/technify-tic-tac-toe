@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import Header from './Header'; 
 
 function Square({value , onSquareClick}) {
   return (
@@ -43,6 +44,7 @@ export default function Board() {
 
   return (
     <div className="whole-game"> 
+      <Header /> 
       <div className="status">{status}</div>
         <div className="board-row">
           <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
