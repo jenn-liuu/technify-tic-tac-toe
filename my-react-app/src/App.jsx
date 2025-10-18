@@ -30,6 +30,8 @@ export default function Board() {
   let status; 
   if (winner) {
     status = "Winner is: " + winner; 
+  } else if (squares.every(square => square !== null)) {
+    status = "It's a tie!"; 
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O"); 
   }
