@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header'; 
+import { Link } from 'react-router-dom'; 
 
 function Square({value , onSquareClick}) {
   return (
@@ -44,6 +45,9 @@ export default function Board() {
 
   return (
     <div className="whole-game"> 
+      <Link to="/">
+      <button style={{ marginBottom: '20px' }}>Back to Home Page</button>
+      </Link>
       <Header /> 
       <div className="status">{status}</div>
         <div className="board-row">
